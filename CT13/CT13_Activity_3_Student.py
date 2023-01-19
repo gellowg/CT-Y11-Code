@@ -11,4 +11,3 @@ if ((num > 0) or (num <= 99)):
         print(id)
 else:
     print ("Invalid number")
-
