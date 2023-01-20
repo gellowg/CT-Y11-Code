@@ -18,7 +18,12 @@ def reverseSearch (inList, inTarget):
 #        the item is found or the place where it should
 #        be located at is passed
 
-
+    for item in range(len(inList), -1, -1):
+        if item == inTarget:
+            found = True
+        if item < inTarget:
+            found = True
+            
     if (found):
         print (inTarget, "found at index", index)
     else:

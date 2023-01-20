@@ -12,7 +12,7 @@ def reverseTraversal (inList):
     index = 0
 
 # -----> Add a 'for in range' loop here to traverse in reverse
-
+    for index in range(len(myList), -1, -1):
         # Print first and last item only
         if (index == len (inList) - 1):
             print (inList[index])

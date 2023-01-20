@@ -1,4 +1,4 @@
-run = "python3 CT13/CT13_Activity_3_Finished.py"
+run = "python3 CT14/CT14_Activity_3b_Student.py"
 
 # The primary language of the repl. There can be others, though!
 language = "python3"
