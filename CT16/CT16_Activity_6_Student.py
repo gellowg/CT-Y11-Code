@@ -2,7 +2,7 @@
 # Global variables
 # ------------------------------------------------------------
 theYear = 0
-leapYear = True
+leapYear = False
 
 # ------------------------------------------------------------
 # Main program
@@ -14,14 +14,14 @@ elif (theYear > 9999):
     print ("Invalid input")
 else:
     if (theYear % 100 == 0):
-        if (theYear // 400 == 0):
+        if (theYear % 400 == 0):
             leapYear = True
         else:
             leapYear = False
     elif (theYear % 4 == 0):
         leapYear = True
     else:
-        leapYear = True
+        leapYear = False
 
 if (leapYear):
     print (theYear, "is a leap year")
